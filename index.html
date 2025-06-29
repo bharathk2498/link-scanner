@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malicious Link Scanner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Malicious Link Scanner 🛡️</h1>
+            <p>Enter a URL to check for common phishing and malware indicators.</p>
+        </header>
+        <main>
+            <div class="input-group">
+                <input type="text" id="urlInput" placeholder="https://example.com">
+                <button id="scanBtn">Scan URL</button>
+            </div>
+            <div id="results">
+                <h2>Analysis Report</h2>
+                <ul id="analysisList">
+                    </ul>
+            </div>
+        </main>
+        <footer>
+            <p>Disclaimer: This is a basic scanner and not a replacement for a full antivirus solution. Always be cautious when clicking links.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
